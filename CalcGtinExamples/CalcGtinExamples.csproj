@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject>CalcGtinExamples.App</StartupObject>
+    <Version>0.2.10</Version>
+    <PackageId>CalcGtinExamples</PackageId>
+    <Authors>Damian Viktorovich Morozov</Authors>
+    <Product>CalcGtinExamples</Product>
+  </PropertyGroup>
+
+</Project>
