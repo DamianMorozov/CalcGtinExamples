@@ -64,12 +64,12 @@
                 Click="ButtonGtinCalcV3_OnClick"/>
         <TextBox Style="{StaticResource TextBox}" 
                  Text="{Binding Path=Gtin, Mode=OneWay, IsAsync=True}" IsReadOnly="True"
-            Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="5" Grid.RowSpan="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="5" Grid.RowSpan="3" />
         <Label Style="{StaticResource Label}" 
                Content="{Binding Path=GtinLength, Mode=OneWay, IsAsync=True}"               
                Grid.Column="1" Grid.Row="8" />
         <Label Style="{StaticResource Label}" Content="{Binding Path=GtinIsValid, Mode=OneWay, IsAsync=True}" 
-               Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+               Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="8" />
 
     </Grid>
 </Window>

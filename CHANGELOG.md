@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.20] - 2021-03-24
+### Added
+- CalcGtinExamplesTests project
+- CalcGtinExamplesCore project
+
 ## [0.2.10] - 2021-03-23
 ### Added
-- Work example
+- CalcGtinExamples project
